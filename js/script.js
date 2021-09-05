@@ -18,7 +18,13 @@ window.addEventListener("DOMContentLoaded", function(){
         let genderInput =  document.querySelector("#gender").value;
         console.log(genderInput);
         
-       
+        if (genderInput === "male"){
+            name = maleGender[day];
+        } else if(genderInput === "female"){
+            name = femaleGender[day];
+        } else{
+            name = "Gender has not been provided!!";
+        }
     })
 })
 
