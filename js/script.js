@@ -11,9 +11,13 @@ window.addEventListener("DOMContentLoaded", function(){
         let dateInput = document.querySelector("#dateInput").value;
         console.log(dateInput);
 
+        let date = new Date(dateInput);
+        let day = date.getDay();
+
         let genderInput =  document.querySelector("#gender").value;
         console.log(genderInput);
         
+       
     })
 })
 
