@@ -8,6 +8,11 @@ window.addEventListener("DOMContentLoaded", function(){
     inputForm.addEventListener("submit", function(){
         console.log("hey");
     
+        let dateInput = document.querySelector("#dateInput").value;
+        console.log(dateInput);
+
+        let genderInput =  document.querySelector("#gender").value;
+        console.log(genderInput);
         
     })
 })
