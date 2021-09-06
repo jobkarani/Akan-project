@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", function(){
     let inputForm = document.querySelector("#inputForm");
     let maleGender = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     let femaleGender = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+    let dayOfTheWeek = ["Monday","Teusday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
     inputForm.addEventListener("submit", function(){
         console.log("hey");
@@ -12,8 +13,9 @@ window.addEventListener("DOMContentLoaded", function(){
         console.log(dateInput);
 
         let date = new Date(dateInput);
-        let day = date.getDay();
+        let day = date.getDay(dayOfTheWeek);
         // alert(maleGender[day]);
+
 
         let genderInput =  document.querySelector("#gender").value;
         console.log(genderInput);
@@ -25,7 +27,8 @@ window.addEventListener("DOMContentLoaded", function(){
         } else{
             name = "Gender has not been provided!!";
         }
-        alert("Name is: " + name);
+        alert("Name is: " + " " + name);
+        alert("Because you were born on the" +  " " + day + " " + "day of the week :)");
     })
 })
 
