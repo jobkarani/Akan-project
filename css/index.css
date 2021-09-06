@@ -38,14 +38,22 @@ h2{
 .male{
     position: relative;
     right: -400px;
+    width: 15%;
+    background-color: #082032;
+    border-radius: 3px 50px 30px 50px;
 }
 .female{
     position: relative;
     right: -500px;
+    width: 15%;
+    background-color: #082032;
+    border-radius: 3px 50px 30px 50px;
 }
+
 .btn{
     position: relative;
-    right: -400px;
+    right: -450px;
+    bottom: -40px;
 }
 .display{
     text-align: center;
