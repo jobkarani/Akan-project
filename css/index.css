@@ -8,7 +8,6 @@ h1{
     font-weight: 600;
     font-family: fantasy;
     text-align: center;
-    /* height: 40px; */
 }
 h2{
     color: green;
@@ -35,7 +34,6 @@ h2{
 }
 .mid{
     display: flex;
-    /* background-color: green; */
 }
 .male{
     position: relative;
@@ -45,16 +43,18 @@ h2{
     position: relative;
     right: -500px;
 }
-/* a{
-    text-decoration: none;
-    color: white;
-} */
 .btn{
     position: relative;
     right: -400px;
-    /* background-color: green; */
+}
+.display{
+    text-align: center;
+}
+img{
+    position: relative;
+    right: -500px;
+    bottom: -10px;
 }
 form{
     text-align: center;
-    height: 100px;
 }
