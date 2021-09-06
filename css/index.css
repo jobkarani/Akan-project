@@ -1,16 +1,42 @@
 *{
     background-color: #24153f;
     color: white;
-    box-sizing: border-box;
 }
 h1{
     color: #FFE459;
     font-weight: 600;
     font-family: fantasy;
     text-align: center;
+    /* height: 40px; */
 }
 h2{
     color: #F43B86;
     font-weight: 400;
     font-family: fantasy;
+}
+.intro{
+    /* height: 100px; */
+    text-align: center;
+    font-size: large;
+    font-size: large;
+    color: #3D087B;
+    background-image: url("assets/ghana.png");
+    background-repeat: no-repeat;
+}
+.mid{
+    display: flex;
+    /* background-color: green; */
+}
+.male{
+    position: relative;
+    right: -400px;
+    background-image: url(assets/ghana.jpg);
+}
+.female{
+    position: relative;
+    right: -800px;
+}
+form{
+    text-align: center;
+    height: 100px;
 }

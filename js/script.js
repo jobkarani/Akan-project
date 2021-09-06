@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function(){
 
         let date = new Date(dateInput);
         let day = date.getDay();
-        alert(maleGender[day]);
+        // alert(maleGender[day]);
 
         let genderInput =  document.querySelector("#gender").value;
         console.log(genderInput);
