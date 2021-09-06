@@ -66,15 +66,14 @@ li{
 .btn{
     position: relative;
     right: -450px;
+  
     bottom: -40px;
 }
-.display{
-    text-align: center;
-    position: relative;
-    bottom: -80px;
+button{
+    background-color: green;
 }
-.display>p{
-    color: greenyellow;
+button>a{
+    color: yellow;
 }
 img{
     position: relative;

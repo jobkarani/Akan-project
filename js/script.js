@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", function(){
         } else{
             name = "Gender has not been provided!!";
         }
-        alert("Name is: " + " " + name);
+        alert("Your name is: " + " " + name);
         alert("Because you were born on the" +  " " + day + " " + "day of the week :)");
     })
 })
