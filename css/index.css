@@ -1,6 +1,7 @@
-*{
-    background-color: #24153f;
+.body{
+    background-color: #0d0c22;;
     color: white;
+    height: 100%;
 }
 h1{
     color: #FFE459;
@@ -10,18 +11,27 @@ h1{
     /* height: 40px; */
 }
 h2{
-    color: #F43B86;
+    color: green;
     font-weight: 400;
     font-family: fantasy;
 }
 .intro{
-    /* height: 100px; */
+    display: flex;
+    font-size: large;
+    font-size: large;
+    color: white;
+}
+.intro>p{
+    width: 400px;
     text-align: center;
-    font-size: large;
-    font-size: large;
-    color: #3D087B;
-    background-image: url("assets/ghana.png");
-    background-repeat: no-repeat;
+    position: relative;
+    left: 400px;
+    bottom: -110px;
+}
+.intro>img{
+    position: relative;
+    right: -600px;
+    bottom: -200px;
 }
 .mid{
     display: flex;
@@ -30,11 +40,19 @@ h2{
 .male{
     position: relative;
     right: -400px;
-    background-image: url(assets/ghana.jpg);
 }
 .female{
     position: relative;
-    right: -800px;
+    right: -500px;
+}
+/* a{
+    text-decoration: none;
+    color: white;
+} */
+.btn{
+    position: relative;
+    right: -400px;
+    /* background-color: green; */
 }
 form{
     text-align: center;
