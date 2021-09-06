@@ -1,4 +1,16 @@
 *{
     background-color: #24153f;
     color: white;
+    box-sizing: border-box;
+}
+h1{
+    color: #FFE459;
+    font-weight: 600;
+    font-family: fantasy;
+    text-align: center;
+}
+h2{
+    color: #F43B86;
+    font-weight: 400;
+    font-family: fantasy;
 }
