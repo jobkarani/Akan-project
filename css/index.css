@@ -31,6 +31,7 @@ h2{
     color: white;
 }
 .intro>p{
+    color: greenyellow;
     width: 400px;
     text-align: center;
     position: relative;
@@ -59,7 +60,9 @@ h2{
     background-color: #082032;
     border-radius: 3px 50px 30px 50px;
 }
-
+li{
+    color: greenyellow;
+}
 .btn{
     position: relative;
     right: -450px;
@@ -67,12 +70,19 @@ h2{
 }
 .display{
     text-align: center;
+    position: relative;
+    bottom: -80px;
+}
+.display>p{
+    color: greenyellow;
 }
 img{
     position: relative;
-    right: -500px;
-    bottom: -10px;
+    right: -650px;
+    bottom: -80px;
 }
 form{
     text-align: center;
+    position: relative;
+    bottom: -100px;
 }
