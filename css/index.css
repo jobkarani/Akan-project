@@ -4,10 +4,20 @@
     height: 100%;
 }
 h1{
-    color: #FFE459;
     font-weight: 600;
     font-family: fantasy;
-    text-align: center;
+    position: relative;
+    right: -430px;
+    bottom: -80px;
+}
+#red{
+    color: red;
+}
+#yellow{
+    color: yellow;
+}
+#green{
+    color: green;
 }
 h2{
     color: green;
