@@ -1,0 +1,88 @@
+.body{
+    background-color: #0d0c22;;
+    color: white;
+    height: 100%;
+}
+h1{
+    font-weight: 600;
+    font-family: fantasy;
+    position: relative;
+    right: -430px;
+    bottom: -80px;
+}
+#red{
+    color: red;
+}
+#yellow{
+    color: yellow;
+}
+#green{
+    color: green;
+}
+h2{
+    color: green;
+    font-weight: 400;
+    font-family: fantasy;
+}
+.intro{
+    display: flex;
+    font-size: large;
+    font-size: large;
+    color: white;
+}
+.intro>p{
+    color: greenyellow;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    bottom: -110px;
+}
+.intro>img{
+    position: relative;
+    right: -600px;
+    bottom: -200px;
+}
+.mid{
+    display: flex;
+}
+.male{
+    position: relative;
+    right: -400px;
+    width: 15%;
+    background-color: #082032;
+    border-radius: 3px 50px 30px 50px;
+}
+.female{
+    position: relative;
+    right: -500px;
+    width: 15%;
+    background-color: #082032;
+    border-radius: 3px 50px 30px 50px;
+}
+li{
+    color: greenyellow;
+}
+.btn{
+    position: relative;
+    right: -450px;
+    bottom: -40px;
+}
+.display{
+    text-align: center;
+    position: relative;
+    bottom: -80px;
+}
+.display>p{
+    color: greenyellow;
+}
+img{
+    position: relative;
+    right: -650px;
+    bottom: -80px;
+}
+form{
+    text-align: center;
+    position: relative;
+    bottom: -100px;
+}
