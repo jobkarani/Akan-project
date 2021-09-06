@@ -4,7 +4,6 @@ window.addEventListener("DOMContentLoaded", function(){
     let inputForm = document.querySelector("#inputForm");
     let maleGender = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     let femaleGender = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-    let dayOfTheWeek = ["Monday","Teusday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 
     inputForm.addEventListener("submit", function(){
         console.log("hey");
@@ -13,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function(){
         console.log(dateInput);
 
         let date = new Date(dateInput);
-        let day = date.getDay(dayOfTheWeek);
+        let day = date.getDay();
         // alert(maleGender[day]);
 
 
