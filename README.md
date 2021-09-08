@@ -1,4 +1,4 @@
-#Akhan-project
+Akan-project
 
 ## Author
 Job Karani
@@ -19,7 +19,7 @@ This is Prep's week2 Independent project.It entails a form that generates users 
 * Web-browser or your choice
 * Github
 
-## Setup Insatallation
+## Setup Installation
 * Copy the github url
 * Clone to your computer
 * Double click the index.html to go live/start your live server.
@@ -46,7 +46,7 @@ If you have any suggestion or contributions about this project, you can reach ou
 * Phone: +254707367650
 
 ## License
-Copyright <2021> <MoringaSchool>
+Copyright <2021> < MoringaSchool >
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
